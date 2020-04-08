@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{a5971f7a-66c9-462e-93e3-2af4a1c26dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{aeb11065-62a2-4d58-8188-22f42bad0016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actors">
+      <UniqueIdentifier>{bdcb4aea-8713-4228-bee5-9cc44a779123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actors">
+      <UniqueIdentifier>{b936454f-30a5-4ace-a21a-3d900f57ea41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Collision">
+      <UniqueIdentifier>{13fdaea5-e811-495b-9a39-4e9d2fd860bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Collision">
+      <UniqueIdentifier>{e373bb49-d121-48f3-aad2-86fee3d10cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Shaders">
+      <UniqueIdentifier>{0332d007-ea7d-46b2-bf5b-aaba6472fbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Models">
+      <UniqueIdentifier>{3054c00e-c4d5-47b1-8c7c-3141c0f1981c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Shader">
+      <UniqueIdentifier>{7ecd04cb-789b-4050-b4c1-d91fed710f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Model">
+      <UniqueIdentifier>{ce7c9fe7-1a02-4765-a501-8b0a5858c236}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LittleEngineD12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StepTimer.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LETransform.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LEActor.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LALogo.cpp">
+      <Filter>Source Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionAABB.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSphere.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="PCollision.cpp">
+      <Filter>Source Files\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelImporter.cpp">
+      <Filter>Source Files\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Source Files\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureImporter.cpp">
+      <Filter>Source Files\Components\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActor.cpp">
+      <Filter>Source Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="BumpShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TestShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentTextureShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourGlowShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentColourGlowShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FireTexture.cpp">
+      <Filter>Source Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="FireShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedoShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextShader.cpp">
+      <Filter>Source Files\Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TrailActor.cpp">
+      <Filter>Source Files\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LittleEngineD12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LETransform.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LEActor.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LALogo.h">
+      <Filter>Header Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSphere.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionAABB.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="PCollision.h">
+      <Filter>Header Files\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Header Files\Components\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelImporter.h">
+      <Filter>Header Files\Components\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureImporter.h">
+      <Filter>Header Files\Components\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Components\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActor.h">
+      <Filter>Header Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="BumpShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TestShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentTextureShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourGlowShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentColourGlowShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TrailShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FireTexture.h">
+      <Filter>Header Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="FireShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedoShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextShader.h">
+      <Filter>Header Files\Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TrailActor.h">
+      <Filter>Header Files\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="TextureVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturePS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="LightVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="LightPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="BumpVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="BumpPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="TestPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="TestVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="ColourGlowVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="ColourGlowPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="TrailVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="TrailPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="BuildingPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="BuildingVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="FirePS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="SpeedoPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="TextPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="TextVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="FireVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
